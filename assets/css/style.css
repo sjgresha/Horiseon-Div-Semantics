@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*changed the div class="header" to just the semantic element header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*changed div to nav*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -74,7 +74,7 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*changed div class to the semantic aside element*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +86,7 @@ aside {
     background-color: #2589bd;
 }
 
+/*consolidated "benifit-lead", "benifit-brand", and "benifit-cost" classes to one single class of "benifit-styles" */
 .benefit-styles {
     margin-bottom: 32px;
     color: #ffffff;
